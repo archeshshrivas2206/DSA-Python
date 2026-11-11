@@ -22,5 +22,5 @@ def second_largest_finder_optimal(arr):#optimal approach
         elif arr[i]>second_largest and arr[i]!=first_largest:
             second_largest=arr[i]
     return second_largest
-print("second largest is ",second_largest_finder(arr),"by optimal way ")
+print("second largest is ",second_largest_finder_optimal(arr),"by optimal way ")
         
